@@ -6,17 +6,42 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="appbar">
         <h1>My Cake Recipe</h1>
     </div>
-    <img src="https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg" alt="cake">
+    <img src="https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg"
+        alt="cake">
     <h2>Birthday Cake</h2>
     <h3>Ingredient</h3>
-    <div></div>
+    <div class="row">
+        <div>Flour</div>
+        <div>200g</div>
+    </div>
+    <div class="row">
+        <div>Egg</div>
+        <div>3</div>
+    </div>
+    <div class="row">
+        <div>Sugar</div>
+        <div>100g</div>
+    </div>
+    <div class="row">
+        <div>Chocolate</div>
+        <div>100g</div>
+    </div>
+    <h3>How to Cook</h3>
+    <ol>
+        <li>Mix flour and egg. Whisk.</li>
+        <li>Mix sugar and chocolate. Whisk</li>
+        <li>Heat oven until 300c</li>
+        <li>Spread the mix into baking tray</li>
+        <li>Wait until done</li>
+    </ol>
 </body>
 
 <style>
@@ -27,7 +52,6 @@
         font-family: 'Quicksand';
         margin: 0;
         padding: 0;
-        border: 0;
         color: #424242;
     }
 
@@ -43,13 +67,33 @@
     h1 {
         color: #1F75BE;
     }
-    
+
+    img {
+        width: 100vw;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
     .appbar {
         padding: 16px;
         background-color: #FAFAFA;
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ol {
+        margin: 16px;
+    }
+
+    li {
+        display: list-item;
     }
 </style>
 

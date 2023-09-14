@@ -16,4 +16,4 @@
 - CSS Reset
 - Custom Font
 - Spacings (Padding & Margin)
-- Flex
+- Flexbox (Resource: https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
