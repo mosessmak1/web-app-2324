@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="appbar">
+        <h1>My Cake Recipe</h1>
+    </div>
+    <div class="content">
+        <img src="https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg"
+            alt="cake">
+        <div class="text">
+            <h2>Birthday Cake</h2>
+            <h3>Ingredient</h3>
+            <ul>
+                <li>
+                    <div>
+
+                        <div>Flour</div>
+                        <div>200g</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+
+                        <div>Egg</div>
+                        <div>3</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>Sugar</div>
+                        <div>100g</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>Chocolate</div>
+                        <div>100g</div>
+                    </div>
+                </li>
+            </ul>
+            <h3>How to Cook</h3>
+            <ol>
+                <li>Mix flour and egg. Whisk.</li>
+                <li>Mix sugar and chocolate. Whisk</li>
+                <li>Heat oven until 300c</li>
+                <li>Spread the mix into baking tray</li>
+                <li>Wait until done</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+<style>
+    /* Removes default padding */
+    *,
+    html,
+    body {
+        font-family: 'Quicksand';
+        margin: 0;
+        padding: 0;
+        color: #424242;
+    }
+
+    html {
+        background-color: #F5F5F5;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    h1 {
+        color: #1F75BE;
+    }
+
+    h2,
+    h3 {
+        padding: 16px;
+    }
+
+    img {
+        width: 100vw;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .appbar {
+        padding: 16px;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    ul li div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ol,
+    ul {
+        padding: 0 16px;
+        padding-left: 48px;
+    }
+
+    div.content,
+    div.text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    @media only screen and (min-width: 600px) {
+        img {
+            object-fit: cover;
+            flex: 1;
+            width: 50vw;
+        }
+
+        div.content {
+            flex-direction: row;
+            width: 100vw;
+        }
+
+        div.text {
+            flex: 1;
+        }
+    }
+</style>
+
+</html>
