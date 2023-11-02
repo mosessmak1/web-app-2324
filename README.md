@@ -19,6 +19,7 @@
 - Flexbox (Resource: https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## End Year Project
+- Figma: https://www.figma.com/file/9CYSCTb9HC7QsLhAVXfzlg/menu_book?type=design&node-id=801%3A2&mode=design&t=x6gk75iZPPOjzgmC-1
 - Hero: https://cdn.themistakenman.com/wp-content/uploads/2022/08/fast-food-business.webp
 - Salad: https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg?resize=960%2C503
 - Pizza: https://www.recipetineats.com/wp-content/uploads/2023/05/Garlic-cheese-pizza_9.jpg
